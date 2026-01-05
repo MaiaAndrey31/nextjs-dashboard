@@ -1,3 +1,6 @@
+import { redirect } from 'next/navigation';
+
 export default function Page() {
-  return <p>Dashboard Page</p>;
+  // Redirect /dashboard -> /dashboard/overview
+  redirect('/dashboard/overview');
 }
