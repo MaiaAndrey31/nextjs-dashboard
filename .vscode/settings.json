@@ -1,0 +1,6 @@
+{
+  // Desativa a validação CSS/SCSS/LESS do editor para evitar falsos positivos com @tailwind
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false
+}
