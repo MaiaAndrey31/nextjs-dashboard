@@ -32,7 +32,9 @@ export async function createInvoice(formData: FormData) {
   `;
 
   revalidatePath('/dashboard/invoices');
-  
+    redirect('/dashboard/invoices');
+
+
 
   // Test it out:
   console.log(CreateInvoice.parse({ customerId, amount, status }));
